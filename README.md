@@ -6,13 +6,19 @@ Tasks:
 ->Create a GitHub account OK
 
 ->Import nemmarton/Laboratory_1 repo OK
+
 ->Open Codespace OK?
+
 ->Compile and run the main.c
+
 ->Introduce yourself to terminal commands and redirection
+
 ->Solve painting task
+
 ->Solve /n %d task
 
 Hint:
+
 # Understanding `printf()` in C
 
 The `printf()` function is used in C to display text and values on the screen.  
@@ -26,6 +32,7 @@ It comes from the C standard library `<stdio.h>`, so you must include it at the 
 printf("Hello, World!\n");
 
 Output:
+
 Hello, World!
 
     The \n means new line.
@@ -79,9 +86,11 @@ Sequence	Meaning
 \"	Double quote (")
 
 Example:
+
 printf("Hello\tWorld\n");
 
 Output:
+
 Hello   World
 
 5. Common mistakes
