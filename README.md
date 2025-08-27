@@ -1,7 +1,10 @@
 # Laboratory_1
 Repo for first Lab
+
 Tasks:
+
 ->Create a GitHub account OK
+
 ->Import nemmarton/Laboratory_1 repo OK
 ->Open Codespace OK?
 ->Compile and run the main.c
@@ -10,7 +13,6 @@ Tasks:
 ->Solve /n %d task
 
 Hint:
-
 # Understanding `printf()` in C
 
 The `printf()` function is used in C to display text and values on the screen.  
