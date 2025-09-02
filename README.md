@@ -26,11 +26,11 @@ It comes from the C standard library `<stdio.h>`, so you must include it at the 
 
 ```c
 #include <stdio.h>
-
-1. Basic usage
 ```
+1. Basic usage
+```c
 printf("Hello, World!\n");
-
+```
 Output:
 
 Hello, World!
@@ -51,9 +51,9 @@ Example:
 int age = 20;
 float height = 1.85;
 char grade = 'A';
-
+```c
 printf("Age: %d, Height: %f, Grade: %c\n", age, height, grade);
-
+```
 Output:
 
 Age: 20, Height: 1.850000, Grade: A
@@ -61,17 +61,17 @@ Age: 20, Height: 1.850000, Grade: A
 3. Controlling the output
 
 You can control how many decimal places to show with floats:
-
+```c
 printf("Height: %.2f\n", height);
-
+```
 Output:
 
 Height: 1.85
 
 You can also print multiple values at once:
-
+```c
 printf("%d + %d = %d\n", 5, 3, 5+3);
-
+```
 Output:
 
 5 + 3 = 8
@@ -86,9 +86,9 @@ Sequence	Meaning
 \"	Double quote (")
 
 Example:
-
+```c
 printf("Hello\tWorld\n");
-
+```
 Output:
 
 Hello   World
