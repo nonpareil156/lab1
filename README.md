@@ -28,7 +28,7 @@ It comes from the C standard library `<stdio.h>`, so you must include it at the 
 #include <stdio.h>
 
 1. Basic usage
-
+```
 printf("Hello, World!\n");
 
 Output:
@@ -95,10 +95,10 @@ Hello   World
 
 5. Common mistakes
 
-    ❌ Forgetting to include <stdio.h> → compiler error.
+    >Forgetting to include <stdio.h> → compiler error.
 
-    ❌ Mismatch between format specifier and variable type:
+    >Mismatch between format specifier and variable type:
 
-        Using %d for a float or %f for an int gives wrong results.
+    >Using %d for a float or %f for an int gives wrong results.
 
-    ❌ Forgetting \n → output stays on the same line.
+    >Forgetting \n → output stays on the same line.
