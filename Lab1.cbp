@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+    <FileVersion major="1" minor="6" />
+    <Project>
+        <Option title="tasks" />
+        <Option pch_mode="2" />
+
+        <Build>
+            <!-- First task -->
+            <Target title="first_task">
+                <Option output="bin/Debug/main.exe" prefix_auto="1" extension_auto="0" />
+                <Option object_output="obj/Debug/main/" />
+                <Option type="1" />
+                <Compiler>
+                    <Add option="-Wall" />
+                    <Add option="-Werror" />
+                    <Add option="-g" />
+                </Compiler>
+            </Target>
+
+
+        </Build>
+
+        <!-- List all files in project -->
+        <Unit filename="main.c" />
+
+
+        <Extensions>
+            <code_completion />
+            <debugger />
+        </Extensions>
+    </Project>
+</CodeBlocks_project_file>
